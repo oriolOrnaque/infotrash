@@ -1,0 +1,10 @@
+[package]
+name = "infotrash"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+bindings = { path = "bindings" }
+windows = "0.17.0"
+bytes = "1.0.1"
+clap = "2.33.3"
